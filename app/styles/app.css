@@ -1,0 +1,6 @@
+@import './my-ember-basic-dropdown';
+@import 'sass-file';
+
+:root {
+  --mainColor: #ccc;
+}

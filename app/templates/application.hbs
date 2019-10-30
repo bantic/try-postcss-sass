@@ -1,5 +1,8 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-<WelcomePage />
-{{!-- Feel free to remove this! --}}
+<h1>Hi</h1>
+
+<BasicDropdown as |dd|>
+  <dd.Trigger>Click me</dd.Trigger>
+  <dd.Content>Content of the trigger</dd.Content>
+</BasicDropdown>
 
 {{outlet}}
